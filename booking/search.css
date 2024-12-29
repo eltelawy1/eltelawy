@@ -24,7 +24,7 @@ nav{
     z-index: 111;
     padding: 2%;
 }
-nav>img{
+nav>a>img{
     width:140px ;
     height: 100px;
 }
@@ -321,15 +321,7 @@ input[type="checkbox"]{
     text-align: right;
     color: #ffc12b;
     font-size: 15px;
-<<<<<<< HEAD
   
-=======
-  font-variation-settings:
-  'FILL' 10,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
->>>>>>> 323e2a4b4d4ee8b6da8bce642a7fa02d322008cb
 }
 .stars{
   text-align: right;

@@ -23,7 +23,7 @@ nav {
   z-index: 111;
   padding: 2%;
 }
-nav > img {
+nav >a > img {
   width: 140px;
   height: 100px;
 }

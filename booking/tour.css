@@ -1,23 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Kings&display=swap");
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   font-family: "Urbanist", sans-serif;
-} */
+}
 a {
   text-decoration: none;
 }
 nav {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 98%;
+ 
+  width: 100%;
   height: 70px;
-  position: absolute;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +24,7 @@ nav {
   z-index: 111;
   padding: 2%;
 }
-nav > img {
+nav >a> img {
   width: 140px;
   height: 100px;
 }
@@ -81,9 +79,90 @@ body { font-family: Arial, sans-serif; margin: 20px; }
        }
         .tour { margin-bottom: 20px; }
         
+        .up{
+          padding-top: 20px;
+          width: 100%;
+          height: 250px;
+          color: #FFFFFF;
+          font-size: 36px;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          background-image: url(assets/images/pv1.webp);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          margin: 0;
+        }
 
-
-
+      
+      
+      .grid {
+        margin: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px;
+        min-height: 100vh; 
+      }
+      
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 400px; 
+        height: 450px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+      }
+      
+      .card img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover; 
+      }
+      
+      .card h2 {
+          font-size: 1.2rem;
+          margin: 10px;
+          color: #333;
+      }
+      
+      .card p {
+          margin: 0 10px 10px;
+          color: #666;
+      }
+      
+      .price {
+          color: #27ae60;
+          font-weight: bold;
+      }
+      
+      .card button {
+          display: block;
+          width: calc(100% - 20px);
+          margin: 0 auto 10px;
+          padding: 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      
+      .card button:hover {
+          background-color: #0056b3;
+      }
 
 
 
@@ -94,9 +173,7 @@ body { font-family: Arial, sans-serif; margin: 20px; }
 
 
 footer {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ 
     padding: 5% 2% 0;
     background-image: url(assets/images/footer-bg.webp);
     background-repeat: no-repeat;
